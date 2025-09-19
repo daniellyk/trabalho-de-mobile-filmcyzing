@@ -1,4 +1,3 @@
-import React from 'react';
 import { Image, SafeAreaView, StyleSheet } from 'react-native';
 
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -9,13 +8,14 @@ export default function HomeScreen() {
     return (
         <SafeAreaView style={styles.container}>
             <ParallaxScrollView
-                
+
                 headerImage={<Image
                     source={require('@/assets/images/caligari-imagem-4-400x301.jpg')}
                     style={styles.reactLogo} />} headerBackgroundColor={{
-                        dark: '#fff',
-                        light: '#fff'
+                        dark: '#038380',
+                        light: '#038380',
                     }}            >
+
                 <ThemedView style={styles.titleContainer}>
                     <ThemedText type="title">O Gabinete do Dr. Caligari</ThemedText>
                 </ThemedView>
@@ -32,7 +32,7 @@ export default function HomeScreen() {
                 <ThemedView style={styles.stepContainer}>
                     <ThemedText type="subtitle">Sinopse</ThemedText>
                     <ThemedText> A história é contada do ponto de vista de Francis, um jovem que perdeu seu melhor amigo e suspeita que o Dr. Caligari e Cesare estão por trás dos crimes.
-                         À medida que Francis investiga, a linha entre a realidade e o delírio começa a se desvanecer, levando o espectador a questionar tudo o que vê na tela.</ThemedText>
+                        À medida que Francis investiga, a linha entre a realidade e o delírio começa a se desvanecer, levando o espectador a questionar tudo o que vê na tela.</ThemedText>
                 </ThemedView>
             </ParallaxScrollView>
         </SafeAreaView>
