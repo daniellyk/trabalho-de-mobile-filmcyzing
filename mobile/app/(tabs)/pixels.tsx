@@ -1,7 +1,6 @@
 import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
@@ -16,20 +15,22 @@ export default function HomeScreen() {
                     style={styles.reactLogo}
                 />
             }>
-            <ThemedView style={styles.titleContainer}>
+                    <ThemedView style={styles.titleContainer}>
                 <ThemedText type="title">Pixels</ThemedText>
-
             </ThemedView>
+
             <ThemedView style={styles.stepContainer}>
                 <ThemedText type="subtitle">Informações Gerais</ThemedText>
-                <ThemedText>Gênero: Ação, comédia e ficção científica. <ThemedText>
-                    <ThemedText>Direção: Chris Columbus. </ThemedText>
-                    <ThemedText>Roteiro: Patrick Jean, Tim Herlihy, Timothy Dowling e Adam Sandler. </ThemedText>
-                    <ThemedText>Lançamento:23 de julho de 2015 Brasil. </ThemedText>
-                    <ThemedText>Duração: 1h 45m. </ThemedText>
-                    <ThemedText>Orçamento: US$ 88–129 milhões.. </ThemedText>
-                    <ThemedText>Disponível em: HBO, Google play e Apple TV+. </ThemedText>
-                </ThemedText>
+                <ThemedText> Gênero: Ação, comédia e ficção científica.</ThemedText>
+                <ThemedText> Direção: Chris Columbus. </ThemedText>
+                <ThemedText> Roteiro: Patrick Jean, Tim Herlihy, Timothy Dowling e Adam Sandler. </ThemedText>
+                <ThemedText> Lançamento:23 de julho de 2015 Brasil. </ThemedText>
+                <ThemedText> Duração: 1h 45m. </ThemedText>
+                <ThemedText> Orçamento: US$ 88–129 milhões. </ThemedText>
+                <ThemedText> Distribuição: Sony Pictures </ThemedText>
+                <ThemedText>Disponível em: HBO, Google play e Apple TV+.</ThemedText>
+                <ThemedText /> <ThemedText>
+
                 </ThemedText>
             </ThemedView>
             <ThemedView style={styles.stepContainer}>
